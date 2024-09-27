@@ -15,10 +15,10 @@ const defaultHttpPorts = ['80', '8080', '2052', '2082', '2086', '2095', '8880'];
 const defaultHttpsPorts = ['443', '8443', '2053', '2083', '2087', '2096'];
 let proxyIP = proxyIPs[Math.floor(Math.random() * proxyIPs.length)];
 let dohURL = 'https://cloudflare-dns.com/dns-query';
-let trojanPassword = `bpb-trojan`;
+let trojanPassword = `bpb-trojan-2024`;
 // https://emn178.github.io/online-tools/sha224.html
 // https://www.atatus.com/tools/sha224-to-hash
-let hashPassword = 'b5d0a5f7ff7aac227bc68b55ae713131ffdf605ca0da52cce182d513';
+let hashPassword = 'd14a028c2a3a2bc9476102bb288234c415a2b01f828ea62ac5b3e42f';
 let panelVersion = '2.5.9';
 
 if (!isValidUUID(userID)) throw new Error(`Invalid UUID: ${userID}`);
